@@ -1,10 +1,16 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">首页</router-link> |
-      <router-link to="/about">关于</router-link>
+      <!-- 命名路由 -->
+      <router-link :to="{ name: 'home' }">首页</router-link> |
+      <router-link :to="{ name: 'about' }">关于</router-link>
     </div>
+    <!-- 命名视图默认名字default -->
     <router-view/>
+    <!-- 命名视图名字 email-->
+    <router-view name="email"/>
+    <!-- 命名视图名字 tel-->
+    <router-view name="tel"/>
   </div>
 </template>
 

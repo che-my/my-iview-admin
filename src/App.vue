@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <h1>my-iview-admin</h1>
+      <h1>my-iview-admins</h1>
       <!-- 命名路由 -->
       <router-link :to="{ name: 'home' }">首页</router-link> |
       <router-link :to="{ name: 'about' }">关于</router-link>

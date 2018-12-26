@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h2>{{food}}</h2>
-    <HelloWorld msg="欢迎来到我的Vue.js应用项目"/>
+    <HelloWorld msg="欢迎来到我的Vue.js应用项目啊啊"/>
     <button @click="handleClick('back')">返回上一页</button>
     <button @click="handleClick('push')">跳转到parent</button>
     <button @click="handleClick('replace')">替换到parent</button>
